@@ -1,0 +1,37 @@
+ .custom-navbar-padding {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.margin-custom {
+  margin-left: 3rem;
+}
+
+.navbar-bg {
+  background: #e6f0ff;
+  .btn-custom-css {
+    outline: 1px solid black;
+  }
+}
+
+.custom-button-group {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0f1b4c;
+  .custom-button {
+    background: #0f1b4c;
+    border-radius: 8px;
+    color: white;
+    padding: 9px 20px;
+    box-shadow: 0px;
+    outline: none;
+    border: none;
+  }
+}
+
+.margin-custom-item{
+  padding: 0rem 2rem !important;
+}
