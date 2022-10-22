@@ -1,0 +1,20 @@
+.client-logo {
+  .client-logo-header {
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #7d8589;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .client-logo {
+    .custom-clinet-review {
+      padding-left: 22rem;
+    }
+  }
+}

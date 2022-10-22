@@ -27,13 +27,13 @@
   border-radius: 8px;
   color: white;
   padding: 9px 20px;
-  box-shadow: 0px;
+  box-shadow: 0;
   outline: none;
   border: none;
 }
 
 .margin-custom-item {
-  padding: 0rem 1.5rem !important;
+  padding: 0 1.5rem !important;
 }
 
 .house-illustration {
@@ -64,9 +64,24 @@
   border-radius: 8px;
   color: white;
   padding: 9px 20px;
-  box-shadow: 0px;
+  box-shadow: 0;
   outline: none;
   border: none;
+}
+
+.client-logo .client-logo-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7d8589;
+}
+
+@media (min-width: 992px) {
+  .client-logo .custom-clinet-review {
+    padding-left: 22rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

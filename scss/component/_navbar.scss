@@ -9,6 +9,7 @@
 
 .navbar-bg {
   background: #e6f0ff;
+
   .btn-custom-css {
     outline: 1px solid black;
   }
@@ -21,25 +22,28 @@
   font-size: 14px;
   line-height: 21px;
   color: #0f1b4c;
+
   .custom-button {
     background: #0f1b4c;
     border-radius: 8px;
     color: white;
     padding: 9px 20px;
-    box-shadow: 0px;
+    box-shadow: 0;
     outline: none;
     border: none;
   }
 }
 
 .margin-custom-item {
-  padding: 0rem 1.5rem !important;
+  padding: 0 1.5rem !important;
 }
 
 .house-illustration {
   background: #e6f0ff;
+
   .house-description {
     margin-top: 13rem;
+
     p {
       font-family: "Poppins";
       font-style: normal;
@@ -49,7 +53,8 @@
       letter-spacing: 0.01em;
       color: #687691;
     }
-    h2{
+
+    h2 {
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 700;
@@ -57,13 +62,14 @@
       line-height: 76px;
       color: #000336;
     }
+
     .house-button {
       button {
         background: #0f1b4c;
         border-radius: 8px;
         color: white;
         padding: 9px 20px;
-        box-shadow: 0px;
+        box-shadow: 0;
         outline: none;
         border: none;
       }
