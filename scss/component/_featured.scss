@@ -1,65 +1,75 @@
 .featured-section {
-  .featured-header {
-    h2 {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 35px;
-      line-height: 35px;
-      color: #000339;
-    }
-    P {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 30px;
-      color: #5a6473;
-    }
-  }
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	.featured-header {
+		margin-bottom: 5rem;
+		h2 {
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 600;
+			font-size: 35px;
+			line-height: 35px;
+			color: #000339;
+		}
+		P { 
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 30px;
+			color: #5a6473;
+		}
+	}
 }
 
 @media (min-width: 576px) and (max-width: 1400px) {
-  .featured-section {
-    .featured-header {
-      position: relative;
-      .featured-right {
-        position: absolute;
-        top: 3rem;
-        right: 1rem;
-        a {
-          font-family: "Poppins";
-          font-style: normal;
-          font-weight: 600;
-          font-size: 18px;
-          line-height: 27px;
-          text-align: right;
-          color: #0689ff;
-        }
-      }
-    }
-  }
+	.featured-section {
+		.featured-header {
+			position: relative;
+			.featured-right {
+				position: absolute;
+				top: 3rem;
+				right: 1rem;
+				a {
+					font-family: "Poppins";
+					font-style: normal;
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 27px;
+					text-align: right;
+					color: #0689ff;
+				}
+			}
+		}
+	}
 }
 
 .featured-card-section {
-  .card {
-    .card-body {
-      h5 {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 20px;
-        color: #000339;
-      }
-      p {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        color: #a3a6ab;
-      }
-    }
-  }
+	.card {
+		.card-body {
+			h5 {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 20px;
+				color: #000339;
+			}
+			p {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 21px;
+				color: #a3a6ab;
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.featured-card-section{
+		margin: auto;
+		text-align: center;
+	}
 }

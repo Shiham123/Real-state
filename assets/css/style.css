@@ -83,6 +83,10 @@
     padding-left: 22rem;
   }
 }
+.working-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 .working-section .work-header hr {
   background-color: #000339 !important;
   width: 50px !important;
@@ -118,6 +122,13 @@
   border: none;
 }
 
+.featured-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.featured-section .featured-header {
+  margin-bottom: 5rem;
+}
 .featured-section .featured-header h2 {
   font-family: "Poppins";
   font-style: normal;
@@ -169,6 +180,13 @@
   font-size: 14px;
   line-height: 21px;
   color: #a3a6ab;
+}
+
+@media (max-width: 576px) {
+  .featured-card-section {
+    margin: auto;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
