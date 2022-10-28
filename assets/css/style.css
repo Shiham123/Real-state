@@ -243,4 +243,57 @@
   color: #5a6473;
 }
 
+.count-section .count-item h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  color: #000000;
+}
+.count-section .count-item p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #7b8087;
+}
+
+.mobile-view .view-bg {
+  background: #063183;
+  border-radius: 30px;
+}
+.mobile-view .view-bg .view-details h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.mobile-view .view-bg .view-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+.mobile-view .view-bg .view-details button {
+  padding: 1rem 1.5rem;
+  background: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #002366;
+}
+.mobile-view .view-bg .view-img {
+  margin-top: -2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
